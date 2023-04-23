@@ -1,0 +1,63 @@
+.heroFlex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: -32px;
+}
+.heroFlex img {
+    width: 100%;   
+}
+.heroFlex .text {
+    color: #fff;
+    margin-top: -52px;
+}
+.heroFlex h2 {
+    color: #ff7e00;
+    font-size: 24px;
+    font-weight: 600;
+}
+.heroFlex p {
+    opacity: .9;
+}
+.heroList {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+    margin-top: -32px;
+}
+.heroList ul {
+    padding: 0;
+    padding: 0 12px;
+    margin: 0;
+}
+.heroList li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+}
+.heroList ul span {
+    color: #fff;
+    opacity: .9;
+}
+.heroList h2 {
+    color: #ff7e00;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+.heroList p {
+    margin-top: 0;
+    opacity: .9;
+    color: #fff;
+}
+.heroList .divImage {}
+.heroList .divImage img {
+    width: 100%;
+}
