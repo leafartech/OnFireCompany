@@ -1,0 +1,29 @@
+.cardDiv {
+    padding: 12px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 126, 0, .6)
+}
+.card h3 {
+    font-size: 16px;
+    color: #ff7e00;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.card p {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #fff;
+    opacity: .8;
+    font-weight: 300;
+}
