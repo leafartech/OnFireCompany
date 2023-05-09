@@ -1,0 +1,45 @@
+.dropdownBig {
+    position: relative;
+    padding: 0 12px;
+}
+.dropdownBig .pills {
+    position: absolute;
+    top: -32px;
+}
+.dropdown {
+    padding: 0;
+    margin: 0;
+    border-radius: 12px;
+    background: rgba(255, 0, 0, .6);
+}
+.dropdown li {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+    color: #fff;
+    display: flex;
+    padding: 12px 0;
+}
+.dropdown .dropTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+.dropdown svg {
+    height: 16px;
+    width: 16px;
+    fill: #fff;
+}
+.dropdown li .dropdownDiv {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    background: #fff;
+    color: #141414;
+    padding:12px;
+}
