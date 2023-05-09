@@ -1,0 +1,6 @@
+.dropdownActived {
+    position: relative!important;
+    opacity: 1!important;
+    z-index: 1!important;
+    transition: 500ms;
+}
