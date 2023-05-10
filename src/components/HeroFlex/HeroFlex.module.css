@@ -1,0 +1,101 @@
+.heroFlex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: -32px;
+}
+.heroFlex img {
+    width: 100%;   
+}
+.heroFlex .text {
+    color: #fff;
+    /* margin-top: -52px; */
+}
+.heroFlex h2 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+.heroFlex p {
+    opacity: .9;
+    font-weight: 300;
+}
+.heroList {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+.heroList ul {
+    padding: 0;
+    padding: 0 12px;
+    margin: 0;
+}
+.heroList li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+}
+.heroList ul span {
+    color: #fff;
+    opacity: .9;
+}
+.heroList h2 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+.heroList p {
+    margin-top: 0;
+    opacity: .9;
+    color: #fff;
+    font-weight: 300;
+}
+.heroList .divImage img {
+    width: 100%;
+}
+.heroList p.bottomSubtitle,
+.heroFlex p.bottomSubtitle {
+    margin-top: 12px;
+    padding: 0 12px;
+}
+.heroList.mtop {
+    margin-top: -24px
+}
+.heroFlex.mtop { 
+    margin-top: -82px
+}
+.heroFlex.mtopSpace {
+    margin-top: 0;
+}
+.heroFlex.textTop .text {
+    margin-top: -48px;
+    z-index: 1;
+}
+.heroFlex .video {
+    position: relative;
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 12px;
+}
+.heroFlex .video .bg {
+    position: absolute;
+    top: 44px;
+    background: #000;
+    width: 100%;
+    height: 48px;
+}
+.heroFlex .video iframe {
+    width: 92%;
+}
