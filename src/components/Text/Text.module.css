@@ -1,0 +1,18 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+    margin: 32px 0 8px 0;
+}
+.text h2 {
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+.text p {
+    color: rgba(255, 255, 255, .8);
+    margin: 0;
+}
+.topNegative {
+    margin-top: -32px;
+}
